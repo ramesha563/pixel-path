@@ -34,11 +34,11 @@ function toggleSidebar() {
 
 
 
-// Dark Mode Toggle Function
+// Dark Mode 
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 
-    // Toggle between moon and sun icon
+    // Toggle 
     const icon = document.querySelector(".mode-toggle i");
     if (document.body.classList.contains("dark-mode")) {
         icon.classList.replace("fa-moon", "fa-sun");
